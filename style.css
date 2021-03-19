@@ -5,22 +5,39 @@
 }
 body{
    min-height: 100vh;
-   display: flex;
    align-items: center;
    justify-content: center;
    background-color: rgb(42, 89, 97);
 }
 .container{
-   width: 100%;
-   margin: 20px;
+   margin: 30px;
+   width: auto;
 }
-.input{
+h1{
+   text-align: center;
+   font-size: 3rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   padding-bottom: 20px;
+   color: #bbadadd8;
+}
+.text-input{
    width: 100%;
    height: 10vh;
    font-size: 3rem;
-   border-radius: 10px 10px 5px 5px;
+   border-radius: 10px 10px 0px 0px;
    border: none;
    outline: none;
+   padding: 40px 10px;
+}
+.text-output{
+   width: 100%;
+   height: 10vh;
+   font-size: 3rem;
+   border-radius: 0px 0px 5px 5px;
+   border: none;
+   outline: none;
+   text-align: end;
+   padding: 40px 10px;
 }
 .div-btn{
    display: flex;
@@ -37,6 +54,9 @@ button{
    outline: none;
    font-size: 2rem;
 }
+.btn:hover{
+   opacity: 0.25;
+}
 .btn-yellow{
    background-color: rgba(255, 255, 0, 0.8);
 }
@@ -45,4 +65,14 @@ button{
 }
 .btn-red{
    background-color: rgba(255, 0, 0, 0.5);
+}
+.btn-blue{
+   background-color: rgba(82, 82, 255, 0.7);
+}
+footer{
+   text-align: center;
+   font-size: 1rem;
+   position: relative;
+   top: 4vh;
+   margin: auto;
 }
